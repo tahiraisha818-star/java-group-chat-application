@@ -54,3 +54,11 @@ Screenshots/
 └── sc3.png
 
 README.md
+ ```
+
+
+## Demo
+
+A short demo of the application is available on LinkedIn.
+
+[Watch the project demo on LinkedIn](https://www.linkedin.com/posts/ayesha-tahir-23916b347_java-javafx-socketprogramming-activity-7499905769681784833-6TGQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFay7Y0BTV_E4EOpvUF4tlT4VRd-aUnYdHM)
