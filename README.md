@@ -4,9 +4,11 @@ A real-time multi-client group chat application developed using **Java, JavaFX, 
 
 ## Project Overview
 
-The project was designed to demonstrate practical implementation of networking and concurrent programming in Java. A central server listens for incoming client connections and manages communication between connected users. Each connected client can send messages that are broadcast to the other users in real time.
+This project was developed to demonstrate practical implementation of networking, concurrent programming, and graphical user interface development in Java.
 
-The user interface was developed using JavaFX to provide a simple chat-style experience with message display, timestamps, automatic scrolling, and image-sharing functionality.
+A central server listens for incoming client connections and manages communication between connected users. Each connected client can send messages that are broadcast to other users in real time.
+
+The user interface was developed using JavaFX to provide a chat-style experience with message display, timestamps, automatic scrolling, and image-sharing functionality.
 
 ## Features
 
@@ -19,7 +21,7 @@ The user interface was developed using JavaFX to provide a simple chat-style exp
 - Message timestamps
 - Automatic chat scrolling
 - Image sharing using Base64 encoding
-- Separate server and client-side application logic
+- Separate server-side and client-side application logic
 
 ## Technologies Used
 
@@ -46,3 +48,9 @@ src/
     ├── groupdp2.PNG
     ├── phone.png
     └── video.png
+
+Screenshots/
+├── sc1.png
+└── sc3.png
+
+README.md
