@@ -1,14 +1,48 @@
-# Group Chat Application (JavaFX + Sockets)
+# Java Group Chat Application
 
-A real-time multi-client group chat app built with Java TCP sockets and a JavaFX UI. The server broadcasts messages to all connected clients and supports text + Base64 image sharing.
+A real-time multi-client group chat application developed using **Java, JavaFX, TCP Socket Programming, and Multithreading**. The application follows a client-server architecture where multiple users can connect to a central server and communicate simultaneously through a graphical chat interface.
+
+## Project Overview
+
+The project was designed to demonstrate practical implementation of networking and concurrent programming in Java. A central server listens for incoming client connections and manages communication between connected users. Each connected client can send messages that are broadcast to the other users in real time.
+
+The user interface was developed using JavaFX to provide a simple chat-style experience with message display, timestamps, automatic scrolling, and image-sharing functionality.
 
 ## Features
-- Multi-client chat using ServerSocket/Socket
-- One thread per client (ClientHandler)
-- Broadcast messages to all users
-- JavaFX chat UI with message bubbles, timestamps, and auto-scroll
-- Image sharing using Base64 ([IMG] tag)
 
-## How to Run
-1. Run `Server.java` (starts on port 5000)
-2. Run `ChatAppFX.java` (opens multiple client windows and connects to the server)
+- Real-time communication between multiple clients
+- Client-server architecture using Java TCP sockets
+- Multiple simultaneous client connections using multithreading
+- Message broadcasting to connected users
+- JavaFX graphical user interface
+- Chat-style message display
+- Message timestamps
+- Automatic chat scrolling
+- Image sharing using Base64 encoding
+- Separate server and client-side application logic
+
+## Technologies Used
+
+- Java
+- JavaFX
+- TCP Socket Programming
+- Multithreading
+- Object-Oriented Programming (OOP)
+- Base64 Encoding
+
+## Project Structure
+
+```text
+src/
+├── group/
+│   └── chatting/
+│       └── application/
+│           ├── ChatAppFX.java
+│           └── Server.java
+│
+└── icons/
+    ├── 3.png
+    ├── 3icon.png
+    ├── groupdp2.PNG
+    ├── phone.png
+    └── video.png
